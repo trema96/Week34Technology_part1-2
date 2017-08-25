@@ -1,0 +1,10 @@
+c:\users\steff\documents\visual studio 2017\Projects\OSScheduling\Algorithms\bin\Debug\Algorithms.dll
+c:\users\steff\documents\visual studio 2017\Projects\OSScheduling\Algorithms\bin\Debug\Algorithms.pdb
+c:\users\steff\documents\visual studio 2017\Projects\OSScheduling\Algorithms\obj\Debug\Algorithms.csprojResolveAssemblyReference.cache
+c:\users\steff\documents\visual studio 2017\Projects\OSScheduling\Algorithms\obj\Debug\Algorithms.dll
+c:\users\steff\documents\visual studio 2017\Projects\OSScheduling\Algorithms\obj\Debug\Algorithms.pdb
+C:\Users\utente\Documents\Visual Studio 2017\Projects\OSScheduling\Algorithms\bin\Debug\Algorithms.dll
+C:\Users\utente\Documents\Visual Studio 2017\Projects\OSScheduling\Algorithms\bin\Debug\Algorithms.pdb
+C:\Users\utente\Documents\Visual Studio 2017\Projects\OSScheduling\Algorithms\obj\Debug\Algorithms.csprojResolveAssemblyReference.cache
+C:\Users\utente\Documents\Visual Studio 2017\Projects\OSScheduling\Algorithms\obj\Debug\Algorithms.dll
+C:\Users\utente\Documents\Visual Studio 2017\Projects\OSScheduling\Algorithms\obj\Debug\Algorithms.pdb
