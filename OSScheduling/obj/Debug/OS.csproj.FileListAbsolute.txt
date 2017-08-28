@@ -14,3 +14,11 @@ C:\Users\utente\Documents\Visual Studio 2017\Projects\OSScheduling\OSScheduling\
 C:\Users\utente\Documents\Visual Studio 2017\Projects\OSScheduling\OSScheduling\obj\Debug\OS.csprojResolveAssemblyReference.cache
 C:\Users\utente\Documents\Visual Studio 2017\Projects\OSScheduling\OSScheduling\obj\Debug\OSScheduling.exe
 C:\Users\utente\Documents\Visual Studio 2017\Projects\OSScheduling\OSScheduling\obj\Debug\OSScheduling.pdb
+C:\Users\utente\Documents\Visual Studio 2017\Projects\OSSchedulingMy\OSScheduling\obj\Debug\OS.csprojResolveAssemblyReference.cache
+C:\Users\utente\Documents\Visual Studio 2017\Projects\OSSchedulingMy\OSScheduling\obj\Debug\OSScheduling.exe
+C:\Users\utente\Documents\Visual Studio 2017\Projects\OSSchedulingMy\OSScheduling\obj\Debug\OSScheduling.pdb
+C:\Users\utente\Documents\Visual Studio 2017\Projects\OSSchedulingMy\OSScheduling\bin\Debug\OSScheduling.exe.config
+C:\Users\utente\Documents\Visual Studio 2017\Projects\OSSchedulingMy\OSScheduling\bin\Debug\OSScheduling.exe
+C:\Users\utente\Documents\Visual Studio 2017\Projects\OSSchedulingMy\OSScheduling\bin\Debug\OSScheduling.pdb
+C:\Users\utente\Documents\Visual Studio 2017\Projects\OSSchedulingMy\OSScheduling\bin\Debug\Algorithms.dll
+C:\Users\utente\Documents\Visual Studio 2017\Projects\OSSchedulingMy\OSScheduling\bin\Debug\Algorithms.pdb

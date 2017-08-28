@@ -8,3 +8,8 @@ C:\Users\utente\Documents\Visual Studio 2017\Projects\OSScheduling\Algorithms\bi
 C:\Users\utente\Documents\Visual Studio 2017\Projects\OSScheduling\Algorithms\obj\Debug\Algorithms.csprojResolveAssemblyReference.cache
 C:\Users\utente\Documents\Visual Studio 2017\Projects\OSScheduling\Algorithms\obj\Debug\Algorithms.dll
 C:\Users\utente\Documents\Visual Studio 2017\Projects\OSScheduling\Algorithms\obj\Debug\Algorithms.pdb
+C:\Users\utente\Documents\Visual Studio 2017\Projects\OSSchedulingMy\Algorithms\obj\Debug\Algorithms.csprojResolveAssemblyReference.cache
+C:\Users\utente\Documents\Visual Studio 2017\Projects\OSSchedulingMy\Algorithms\obj\Debug\Algorithms.dll
+C:\Users\utente\Documents\Visual Studio 2017\Projects\OSSchedulingMy\Algorithms\obj\Debug\Algorithms.pdb
+C:\Users\utente\Documents\Visual Studio 2017\Projects\OSSchedulingMy\Algorithms\bin\Debug\Algorithms.dll
+C:\Users\utente\Documents\Visual Studio 2017\Projects\OSSchedulingMy\Algorithms\bin\Debug\Algorithms.pdb

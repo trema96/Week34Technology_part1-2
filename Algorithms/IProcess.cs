@@ -8,6 +8,7 @@ namespace Algorithms
 {
     public interface IProcess
     {
+        bool ProcessOne();
         bool Process();
         bool RR_Process();
         int GetRunningTime();

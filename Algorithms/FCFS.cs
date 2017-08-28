@@ -1,25 +1,36 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Algorithms
 {
-    // First-Come, First-Served
-    public class FCFS
+    public class FCFS : PAlgorithm
     {
-        private List<IProcess> _processes;
-
-        public FCFS(List<IProcess> processes)
+        private Queue<IProcess> processes = new Queue<IProcess>();
+        public override void AddProcesses(List<IProcess> processes)
         {
-            this._processes = processes;
+            foreach (IProcess process in processes)
+            {
+                this.processes.Enqueue(process);
+            }
         }
 
-        public void Execute()
+        protected override void DoAlgorithm()
         {
-            var sorted = _processes.OrderBy(x => x.GetArrivalTime());
-            foreach (IProcess process in sorted)
+            while (!IsQueueEmpty())
             {
-                process.Process();
+                IProcess currProcess = processes.Dequeue();
+                Console.WriteLine("Starting " + currProcess);
+                while (!currProcess.ProcessOne()) ;
+                Console.WriteLine("Stopping " + currProcess);
             }
+        }
+
+        protected override bool IsQueueEmpty()
+        {
+            return processes.Count <= 0;
         }
     }
 }

@@ -6,24 +6,42 @@ using System.Threading.Tasks;
 
 namespace Algorithms
 {
-    // Shortest-Job-Next
-    public class SJN
+    public class SJN : PAlgorithm
     {
-        private List<IProcess> processes;
-
-        public SJN(List<IProcess> processes)
+        private List<IProcess> processes = new List<IProcess>();
+        public override void AddProcesses(List<IProcess> processes)
         {
-            this.processes = processes;
+            this.processes.AddRange(processes);
         }
 
-        public void Execute()
+        protected override void DoAlgorithm()
         {
-            // TODO: Implement the algorithm
-            var sorted = processes.OrderBy(x => x.GetRunningTime());
-            foreach (IProcess process in sorted)
+            while (!IsQueueEmpty())
             {
-                process.Process();
+                IProcess currProcess = GetNext();
+                processes.Remove(currProcess);
+                Console.WriteLine("Starting " + currProcess);
+                while (!currProcess.ProcessOne()) ;
+                Console.WriteLine("Stopping " + currProcess);
             }
+        }
+
+        protected override bool IsQueueEmpty()
+        {
+            return this.processes.Count <= 0;
+        }
+
+        private IProcess GetNext()
+        {
+            IProcess min = null;
+            foreach (IProcess p in processes)
+            {
+                if (min == null || p.GetRunningTime() < min.GetRunningTime())
+                {
+                    min = p;
+                }
+            }
+            return min;
         }
     }
 }

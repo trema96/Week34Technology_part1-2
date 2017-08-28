@@ -41,12 +41,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FCFS.cs" />
+    <Compile Include="IAlgorithm.cs" />
     <Compile Include="IProcess.cs" />
-    <Compile Include="Priority.cs" />
+    <Compile Include="PAlgorithm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RR.cs" />
     <Compile Include="SJN.cs" />
     <Compile Include="SRT.cs" />
+    <Compile Include="Utils.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
